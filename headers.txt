@@ -1,0 +1,12 @@
+Return-Path: <bounce@malicious.example.com>
+Received: from unknown (HELO mail.malicious.example.com) (203.0.113.45)
+	by mail.receiver.example.com with SMTP; Wed, 22 Oct 2025 09:15:30 +0000
+Received: from [192.0.2.55] (unknown [192.0.2.55])
+	by mail.malicious.example.com with ESMTP; Wed, 22 Oct 2025 09:15:28 +0000
+From: "Your Bank - Support" <support@bank-secure.com>
+To: victim.user@example.org
+Subject: Urgent: Verify Your Account Now to Avoid Suspension
+Date: Wed, 22 Oct 2025 09:15:27 +0000
+Message-ID: <20251022091527.12345@mail.malicious.example.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----=_Part_0_123456.1600000000000"

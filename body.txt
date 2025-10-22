@@ -1,0 +1,55 @@
+------=_Part_0_123456.1600000000000
+Content-Type: multipart/alternative; boundary="----=_Part_1_123456.1600000000000"
+
+------=_Part_1_123456.1600000000000
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear Customer,
+
+We detected suspicious activity on your account and temporarily limited access.
+To restore full access, please verify your identity immediately by visiting the secure link below:
+
+https://www.yourbank.com/verify
+
+Failure to verify within 24 hours will result in permanent suspension of your account.
+
+Sincerely,
+Your Bank Support Team
+
+------=_Part_1_123456.1600000000000
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+  <body>
+    <p>Dear Customer,</p>
+    <p>We detected <strong>suspicious activity</strong> on your account and temporarily limited access.
+    To restore full access, please verify your identity immediately by clicking the secure link below:</p>
+
+    <!-- Visible text looks legitimate but the href goes to a different domain -->
+    <p><a href="http://malicious-verify.example.com/login?uid=ABC123">https://www.yourbank.com/verify</a></p>
+
+    <p><em>Failure to verify within <strong>24 hours</strong> will result in permanent suspension of your account.</em></p>
+
+    <p>Sincerely,<br/>
+    Your Bank Support Team</p>
+
+    <hr/>
+    <small>If you did not request this, please ignore this message.</small>
+  </body>
+</html>
+
+------=_Part_1_123456.1600000000000--
+
+------=_Part_0_123456.1600000000000
+Content-Type: application/zip; name="invoice.zip"
+Content-Disposition: attachment; filename="invoice.zip"
+Content-Transfer-Encoding: base64
+
+UEsDBBQAAAAIAAeLbVQAAAAAAAAAAAAAAAAJAAQASW52b2ljZS5leGVVVAkAA6qkqFqopKhhdXgLAAEE
+AAAAAAQAAAAAA
+
+# (Note: the above base64 is a tiny placeholder and not a real executable)
+
+------=_Part_0_123456.1600000000000--
